@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SDIS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<script src="html5shive.min.js"></script>
+		<script src="js/respond.min.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/file.js"></script>
+	</head>
+	<body>
+		<div class="container mt-2">
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 col-12">
+					<div class="about">
+					
+						<div class="media  p-3 mt-4">
+							<i class="fa fa-globe fa-2x mr-2"></i>
+							<div class="media-body">
+								<h4>HEADQUARTERS </h4>
+								<p>GET Group Holdings Ltd.</p>
+							</div>
+						</div>
+						<div class="media p-3">
+							<i class="fa fa-map-marker fa-2x mr-2"></i>
+							<div class="media-body">
+								<h4>Address </h4>
+								<p>EFT Building (South Tower) Dubai International Financial Centre (DIFC) Dubai, UAE, P.O. Box: 95703</p>
+							</div>
+						</div>
+						<div class="media p-3">
+							<i class="fa fa-phone fa-2x mr-2"></i>
+							<div class="media-body">
+								<h4>PHONE NUMBER </h4>
+								<p>+971 4 3888778</p>
+							</div>
+						</div>
+							<div class="media p-3">
+								<i class="fa fa-envelope fa-2x mr-2"></i>
+								<div class="media-body">
+									<h4>E-MAIL </h4>
+										<p>heidi@getgroup.com</p>
+									</div>
+								</div>	
+					</div>
+				</div>
+				<div class="col-lg-8 wow bounceInDown">
+					<form action="" class="was-validated mt-1 p-3 text-dark font-weight-bold" id="form_color">
+						<h3 class="text-center p-2"><i class="fa fa-plane fa-lg"></i> Passport Application Registration UI</h3>
+						<div class="d-flex justify-content-between">
+							<span> Step 1</span>
+							<span> Step 2</span>
+						</div>
+						<div class="progress mb-3">
+							<div class="progress-bar" style="width:0%"></div>
+						</div>
+						<div class="step1">
+							<div class="row">
+								<div class="col">
+									<span>First Name:</span><br>
+									<div class="input-group mb-2">
+										<span class="input-group-addon"><i class="fa fa-user-o fa-lg"></i></span>
+										<input type="text" class="form-control" name="name"placeholder="Your First Name" required>
+									</div>
+								</div>
+								<div class="col">
+									<span>Last Name:</span>
+									<div class="input-group mb-2">
+										<span class="input-group-addon"><i class="fa fa-user-plus fa-lg"></i></span>		
+										<input type="text" class="form-control" name="username"placeholder="Your Last Name " required>
+									</div>
+								</div>
+							</div>
+							<span>Maiden Name:</span>
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-user-circle-o fa-lg"></i></span>
+								<input type="text" class="form-control" name="name"placeholder="Maiden Name" required>
+							</div>
+							<span>Date Of Birth:</span>
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-birthday-cake fa-lg"></i></span>
+								<input type="date" class="form-control" name="email"placeholder=" Date of Birth " required>
+							</div>
+							<div class="row">
+								<div class="col">
+									<span>Place of Birth:</span><br>
+									<div class="input-group mb-2">
+										<span class="input-group-addon"><i class="fa fa-home fa-lg"></i></span>
+										<select class="form-control"  name="blood_type">
+											<option selected="true" disabled="disabled">Select Country</option>
+											<option>Cairo</option>
+											<option>Minya</option>
+											<option>Assuit</option>
+											<option>Alex</option>
+										</select>
+									</div>
+								</div>
+								<div class="col">
+									<span>Residence country:</span>
+									<div class="input-group mb-2">
+										<span class="input-group-addon"><i class="fa fa-map-marker fa-lg"></i></span>
+										<select class="form-control"  name="blood_type">
+											<option selected="true" disabled="disabled">Select Country</option>
+											<option>Cairo</option>
+											<option>Minya</option>
+											<option>Assuit</option>
+											<option>Alex</option>
+										</select>
+									</div>
+								</div>
+							</div>
+
+							<span>Full Address :</span>
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-edit fa-lg"></i></span>
+								<input type="text" class="form-control" name="name"placeholder="Full Address" required>
+							</div>	
+							
+							<div class="d-flex justify-content-end">
+								<button class="btn btn-success btn-block" id="toStep2"><i class="fa fa-arrow-circle-right"></i> Step 2</button>
+							</div>
+						</div>
+
+						<div class="step2">
+							<span>National ID</span>	
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-id-card fa-lg"></i></span>
+								<input type="number" class="form-control" name="phone"placeholder=" National ID" required>
+							</div>
+							<label class="m-2"> Type of Passport:</label><br>
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-briefcase "></i></span>
+								<select class="form-control"  name="passport_type">
+									<option selected="true" disabled="disabled">passport Type</option>
+									<option>Normal</option>
+									<option>Diplomatic</option>
+									<option>Official</option>
+								</select>
+							</div>	
+
+							<!-- <div class="form-check-inline">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio">Normal Passport
+								</label>
+							</div>
+							<div class="form-check-inline">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio">Diplomatic Passport
+								</label>
+							</div>
+							<div class="form-check-inline">
+								<label class="form-check-label">
+									<input type="radio" class="form-check-input" name="optradio"> Official Passport
+								</label>
+							</div><br> -->
+							<label class="mb-0 mt-2"> Service Type</label>
+							<div class="input-group mb-2">
+								<span class="input-group-addon"><i class="fa fa-plane"></i></span>
+								<select class="form-control"  name="service_type">
+									<option selected="true" disabled="disabled">Service Type</option>
+									<option>Express</option>
+									<option>Normal</option>
+								</select>
+							</div><br>
+							<div class="text-center">
+								<label class="mr-3">Operation type </label>
+								<div class="form-check-inline">
+									<label class="form-check-label">
+										<input type="radio" class="form-check-input" name="optradio">New
+									</label>
+								</div>
+								<div class="form-check-inline">
+									<label class="form-check-label">
+										<input type="radio" class="form-check-input" name="optradio">Renewl
+									</label>
+								</div>
+							</div>
+							<div class="row">
+									<div class="col">
+										<span>Applicant Information:</span><br>
+										<div class="input-group mb-2">
+											<span class="input-group-addon"><i class="fa fa-user-o fa-lg"></i></span>
+											<textarea type="text" class="form-control" name="name"placeholder="Your information" required></textarea>
+										</div>
+									</div>
+									<div class="col">
+										<span class="d-flex justify-content-center">Your Signature :</span>
+										<div class="input-group mb-2">
+											<span class="input-group-addon"><i class="fa fa-user-plus fa-lg"></i></span>		
+											<input type="text" class="form-control" name="username"placeholder="Your Signature " required>
+										</div>
+									</div>
+								</div>	
+							<div class="d-flex justify-content-between mt-3">
+								<button class="btn btn-primary toStep1"><i class="fa fa-arrow-circle-left"></i> Back to Step 1</button>
+								<input type="submit" class="btn submit" value="Finish">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script>new WOW().init();</script>	
+	</body>
+</html>

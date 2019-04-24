@@ -1,0 +1,19 @@
+/* body{
+    background-color: rgb(0, 118, 192);
+} */
+.about h4{
+    font-weight: bold;
+    color: blue;
+}
+.about .fa{
+    font-weight: bold;
+    color: blue;
+}
+#form_color{
+    background-color: #f3f3f3;
+}
+.step2{display: none}
+.toStep2,.submit,.progress-bar{
+	color: #fff;
+	background-color: #27AE60;
+}
